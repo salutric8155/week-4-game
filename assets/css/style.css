@@ -1,0 +1,28 @@
+body {
+	background: url("../images/skull.jpeg");
+	background-repeat: no-repeat;
+	align-content: center;
+	background-size: cover;
+}
+
+.container{
+	opacity: 0.8;
+	text-align: center;
+	font-weight: bold;
+}
+
+.jumbotron {
+}
+
+.JewelStyle {
+	width: 200px;
+	height: 200px;
+	opacity: 1;
+	filter: grayscale(100%);
+}
+
+img:hover{
+	opacity:1;
+	filter: grayscale(0%);
+	
+}
