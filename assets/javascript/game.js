@@ -13,11 +13,12 @@ $(document).ready(function(){
 	$('#number').text(Random);
 
 var GeneratedNumbers = []
-	var total= 0;	
-	var wins= 0;
-	var losses = 0;
-	$('#numberWins').text(wins);
-	$('#numberLosses').text(losses);
+
+var total= 0;	
+var wins= 0;
+var losses = 0;
+$('#numberWins').text(wins);
+$('#numberLosses').text(losses);
 
 function fourRandomNumbers(){
 	for (var i = 0; i < 4; i++) {
